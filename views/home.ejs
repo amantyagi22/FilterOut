@@ -1,0 +1,98 @@
+<%- include('partials/header') %>
+
+<main class="form-signin">
+  <form action="/" method="POST">
+    <img
+      class="mb-4"
+      src="https://codeforces.com/predownloaded/a5/a6/a5a665d4b88a3dc743903eb801ff8d406db80523.png"
+      alt="codeforces-logo-with-telegram"
+      width="90%"
+    />
+    <h1 class="h3 mb-3 fw-normal">Filter Problems :-</h1>
+
+    <!-- <div class="form-floating">
+      <input
+        name="handle"
+        type="text"
+        class="form-control"
+        id="floatingInput"
+        placeholder="Codeforces Handle"
+      />
+    </div> -->
+    <br />
+    <div class="form-group row">
+      <label for="rating" class="col-sm-3 col-form-label">Difficulty : </label>
+      <div class="col-sm-4">
+        <select class="form-control" id="rating" name="filterfrom">
+          <option>800</option>
+          <option>900</option>
+          <option>1000</option>
+          <option>1100</option>
+          <option>1200</option>
+          <option>1300</option>
+          <option>1400</option>
+          <option>1500</option>
+          <option>1600</option>
+          <option>1700</option>
+          <option>1800</option>
+          <option>1900</option>
+          <option>2000</option>
+          <option>2100</option>
+          <option>2200</option>
+          <option>2300</option>
+          <option>2400</option>
+          <!-- <option>2500</option>
+          <option>2600</option>
+          <option>2700</option>
+          <option>2800</option>
+          <option>2900</option>
+          <option>3000</option>
+          <option>3100</option>
+          <option>3200</option>
+          <option>3300</option>
+          <option>3400</option>
+          <option>3500</option> -->
+        </select>
+      </div>
+      <b>---</b>
+      <div class="col-sm-4">
+        <select class="form-control" id="rating" name="filterto">
+          <option>800</option>
+          <option>900</option>
+          <option>1000</option>
+          <option>1100</option>
+          <option>1200</option>
+          <option>1300</option>
+          <option>1400</option>
+          <option>1500</option>
+          <option>1600</option>
+          <option>1700</option>
+          <option>1800</option>
+          <option>1900</option>
+          <option>2000</option>
+          <option>2100</option>
+          <option>2200</option>
+          <option>2300</option>
+          <option>2400</option>
+          <!-- <option>2500</option>
+          <option>2600</option>
+          <option>2700</option>
+          <option>2800</option>
+          <option>2900</option>
+          <option>3000</option>
+          <option>3100</option>
+          <option>3200</option>
+          <option>3300</option>
+          <option>3400</option>
+          <option>3500</option> -->
+        </select>
+      </div>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">
+      Show Problems
+    </button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
+  </form>
+</main>
+
+<%- include('partials/footer') %>
